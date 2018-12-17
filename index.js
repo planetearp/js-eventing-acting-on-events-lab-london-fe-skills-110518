@@ -1,4 +1,4 @@
-let dodger = document.getElementById('dodger')
+const dodger = document.getElementById('dodger')
 
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace('px', '')
