@@ -1,5 +1,5 @@
 const dodger = document.getElementById('dodger')
-dodger.style.right = dodger.style.left
+
 
 function moveDodgerLeft() {
   let leftNumbers = dodger.style.left.replace('px', '')
